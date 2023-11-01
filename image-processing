@@ -1,0 +1,16 @@
+const AWS = require('aws-sdk');
+const rekognition = new AWS.Rekognition();
+
+exports.handler = async (event) => {
+  const params = {
+    Image: {
+      S3Object: {
+        Bucket: 'your-bucket',
+        Name: 'your-image.jpg',
+      },
+    },
+  };
+
+  const response = await rekognition.detectLabels(params).promise();
+  return JSON.stringify(response.Labels);
+};
