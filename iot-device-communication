@@ -1,0 +1,5 @@
+exports.handler = async (event) => {
+  const payload = JSON.parse(event.body);
+  // Process IoT data and trigger actions
+  console.log('Received IoT data:', payload);
+};
