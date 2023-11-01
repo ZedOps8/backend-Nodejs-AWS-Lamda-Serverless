@@ -1,8 +1,6 @@
 # backend-Nodejs-AWS-Lamda-Serverless
 
-# AWS Lambda Node.js Use Cases Repository
-
-Welcome to the AWS Lambda Node.js Use Cases repository! This repository contains a collection of AWS Lambda functions written in Node.js that demonstrate various use cases for serverless computing. Whether you're new to AWS Lambda or looking for specific examples, you'll find a variety of practical code snippets and use cases here.
+Welcome to my AWS Lambda Node.js Use Cases repository! This repository contains a collection of AWS Lambda functions written in Node.js that demonstrate various use cases for serverless computing. Whether you're new to AWS Lambda or looking for specific examples, you'll find a variety of practical code snippets and use cases here.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
