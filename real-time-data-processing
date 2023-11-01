@@ -1,0 +1,6 @@
+exports.handler = async (event) => {
+  for (const record of event.Records) {
+    const payload = JSON.parse(record.kinesis.data.toString('utf-8'));
+    // Process and analyze the data
+  }
+};
