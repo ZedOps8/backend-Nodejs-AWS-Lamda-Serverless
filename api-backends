@@ -1,0 +1,9 @@
+exports.handler = async (event) => {
+  // Your custom middleware logic, e.g., authentication
+  const token = event.headers.Authorization;
+  if (validateToken(token)) {
+    return 'Authenticated';
+  } else {
+    return 'Unauthorized';
+  }
+};
