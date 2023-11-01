@@ -58,4 +58,4 @@ NA.
 
 **Note:** Please ensure you follow AWS best practices and security guidelines when using Lambda functions in production environments.
 
-Enjoy exploring and building serverless solutions with AWS Lambda and Node.js! and Lets connect ![Linkedin]<a href="http0s://Linkedin.com/in/ZedOps8/"></a>
+Enjoy exploring and building serverless solutions with AWS Lambda and Node.js! and Lets connect <a href="https://www.linkedin.com/in/ZedOps8" target="_blank">LinkedIn Profile</a>
