@@ -1,0 +1,5 @@
+exports.handler = async (event) => {
+  const userData = JSON.parse(event.body);
+  // Register or authenticate the user
+  console.log('User registration:', userData);
+};
