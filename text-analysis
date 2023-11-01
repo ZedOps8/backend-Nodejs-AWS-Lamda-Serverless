@@ -1,0 +1,8 @@
+const AWS = require('aws-sdk');
+const comprehend = new AWS.Comprehend();
+
+exports.handler = async (event) => {
+  const text = event.text;
+  const sentiment = await comprehend.detectSentiment({ Text: text, LanguageCode: 'en' }).promise();
+  return JSON.stringify(sentiment);
+};
