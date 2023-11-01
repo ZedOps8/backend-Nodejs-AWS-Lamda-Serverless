@@ -1,0 +1,5 @@
+exports.handler = async (event) => {
+  const orderData = JSON.parse(event.body);
+  // Process and fulfill the order
+  console.log('Processing order:', orderData);
+};
