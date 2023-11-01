@@ -1,0 +1,8 @@
+exports.handler = async (event) => {
+  // Your authentication and authorization logic
+  if (event.headers.Authorization === 'Bearer yourToken') {
+    return 'Authorized';
+  } else {
+    return 'Unauthorized';
+  }
+};
